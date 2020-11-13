@@ -28,11 +28,10 @@ p{
 ul{margin:0;padding:0;float: right;}
 
 .wallper {
-    max-width: 1440px;
+    /* max-width: 1440px; */
     width: 100%;
     height: auto;
     background-color: aqua;
-    
 }
 .top_bg {
     width: 84%;
@@ -155,7 +154,7 @@ ul{margin:0;padding:0;float: right;}
 }
 
 .our_work {
-    max-width: 1440px;
+    /* max-width: 1440px; */
     width: 100%;
     height: auto;
     float: left;
@@ -248,16 +247,11 @@ ul{margin:0;padding:0;float: right;}
 }
 
 .Solutions{
-    
-max-width: 1440px;
-    
-width: 100%;
-    
-height: 500px;
-    
-float: left;
-    
-padding-bottom: 2%;
+    /* max-width: 1440px; */
+    width: 100%;
+    height: 500px;
+    float: left;
+    padding-bottom: 2%;
 }
 
 .title_solo {
@@ -348,7 +342,7 @@ border-radius: 12px;
 }
 
 .howitwork {
-    max-width: 1440px;
+    /* max-width: 1440px; */
     width: 100%;
     height: auto;
     float: left;
@@ -987,7 +981,7 @@ border-radius: 28px;
 }
 
 .footer {
-    max-width: 1440px;
+    /* max-width: 1440px; */
     width: 100%;
     height: auto;
     float: left;
