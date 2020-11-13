@@ -350,9 +350,10 @@ border-radius: 12px;
 .howitwork {
     max-width: 1440px;
     width: 100%;
-    height: 800px;
+    height: auto;
     float: left;
     background-color: #504883;
+    margin-top: 50px;
 }
 
 .howitwork_content1 {
@@ -539,18 +540,12 @@ border-radius: 20px;
 }
 
 .number3 {
-    
-max-width: 1440px;
-    
-width: 100%;
-    
-height: 600px;
-    
-float: left;
-    
-background-color: cadetblue;
-    
-padding-bottom: 30px;
+    max-width: 1440px;
+    width: 100%;
+    height: 855px;
+    float: left;
+    background-color: #504883;
+    padding-bottom: 30px;
 }
 
 .num3_content {
@@ -599,27 +594,31 @@ padding-bottom: 30px;
 
 .num3_img {
     
-    width: 45%;
-    height: 200px;
-    float: left;
- 
+max-width: 400px;
     
+width: 100%;
+    
+height: auto;
+    
+float: left;
+    
+position: absolute;
 }
 
 .num3_img_left{
     width: 380px;
-    height: 100px;
+    height: auto;
     float: left;
 }
 .num3_img_right {
     width: 233px;
-    height: 150px;
+    height: auto;
     float: left;
 }
 
 .num3_img_1 {
-    width: 189px;
-    height: 105px;
+    width: 105px;
+    height: 189px;
     float: left;
     background: #F6F6F6;
 /* White */
@@ -628,15 +627,40 @@ padding-bottom: 30px;
 /* 1 */
     box-shadow: 0px 0px 25px rgba(113, 109, 242, 0.25);
     border-radius: 20px;
-    transform: rotate(90deg);
     background-size: 100%;
+    margin-top: -45px;
+    margin-left: 25px;
+}
+
+.num3_img_1 img {
+    
+    width: 100%;
+    height: 100%;
+}
+
+.num3_img_2 img {
+    
+    width: 100%;
+    height: 100%;
+}
+
+.num3_img_3 img {
+    
+    width: 100%;
+    height: 100%;
+}
+
+.num3_img_4 img {
+    
+    width: 100%;
+    height: 100%;
 }
 
 .num3_img_2 {
     
-width: 264px;
+width: 147px;
     
-height: 147px;
+height: 264px;
     
 float: left;
     
@@ -652,18 +676,16 @@ box-shadow: 0px 0px 25px rgba(113, 109, 242, 0.25);
     
 border-radius: 20px;
     
-transform: rotate(90deg);
+margin-top: -81%;
     
-margin-top: -48%;
-    
-margin-left: 38%;
+margin-left: 54%;
 }
 
 .num3_img_3 {
    
-width: 160px;
+width: 89px;
    
-height: 89px;
+height: 160px;
    
 float: left;
    
@@ -679,18 +701,16 @@ box-shadow: 0px 0px 25px rgba(113, 109, 242, 0.25);
    
 border-radius: 20px;
    
-transform: rotate(90deg);
+margin-top: 10%;
    
-margin-top: 70%;
-   
-margin-right: -30%;
+margin-left: 60px;
 }
 
 .num3_img_4 {
     
-width: 334px;
+width: 186px;
     
-height: 186px;
+height: 334px;
     
 float: left;
     
@@ -706,11 +726,9 @@ box-shadow: 0px 0px 25px rgba(113, 109, 242, 0.25);
     
 border-radius: 20px;
     
-transform: rotate(90deg);
+margin-top: -57%;
     
-margin-top: -45%;
-    
-margin-left: 50%;
+margin-left: 54%;
 }
 .question {
     
@@ -1186,20 +1204,20 @@ pre, code {
 
 .box_retail {
     
-width: 1000px;
+width: 750px;
     
-height: auto;
+height: 400px;
     
 float: left;
     
-background-color: aqua;
+/* background-color: aqua; */
 }
 
 .box_retail_left {
     
 width: 33%;
     
-height: 250px;
+height: 400px;
     
 float: left;
     
@@ -1216,15 +1234,22 @@ font-style: normal;
     
 color: #FFFFFF;
     
-padding-top: 50px;
+padding-top: 40px;
     
-padding-left: 50px;
+padding-left: 40px;
     
-padding-bottom: 50px;
+padding-bottom: 40px;
     
-padding-right: 50px;
+padding-right: 40px;
+    text-align: left;
 }
 
+.swiper-slide {
+    width: 750px !important;
+    width: 100%;
+    float: left;
+    height: 400px;
+}
 .box_retail_right {
     
 width: 40%;
@@ -1235,11 +1260,54 @@ float: left;
 }
 
 .box_retail_right img {
-    width: 100%;
-    height: 100%;
+    width: 123%;
+    height: 114%;
     float: left;
 }
 .wrapper {
     height: 400px !important;
       width: 900px;  
 }
+
+.swiper-container {
+      width: 100%;
+      height: 400px;
+      margin: 20px auto;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+
+    .append-buttons {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .append-buttons a {
+      display: inline-block;
+      border: 1px solid #007aff;
+      color: #007aff;
+      text-decoration: none;
+      padding: 4px 10px;
+      border-radius: 4px;
+      margin: 0 10px;
+      font-size: 13px;
+    }
+  </style>

@@ -9,6 +9,9 @@
     .howitwork_right_title {
         width: 40%;
 }
+    
+    
+}
 
 @media only screen and (max-width: 1280px) {
     .box_textbanner {
@@ -16,8 +19,10 @@
     }
     
     .num3_img {
-         margin-top: 80%;
+       
+         margin-top: 40%;
     }
+    
     
 }
 
@@ -45,6 +50,11 @@
         width: 45%;
         margin-left: 30%;
     }
+    
+    .num3_img {
+       
+         margin-top: 50%;
+    }
 }
 
 @media only screen and (max-width: 800px) {
@@ -64,10 +74,17 @@
         background-size: 120%;
     }
     
+   
+    
 }
 @media only screen and (max-width: 768px) {
     .box_textbanner {
         width:90%;
+    }
+    
+     .num3_img {
+       
+         margin-top: 60%;
     }
     
 }
@@ -92,6 +109,11 @@
      .num3_text {
         
         background-size: 180%;
+    }
+    
+     .num3_img {
+       
+         margin-top: 87%;
     }
 }
 
