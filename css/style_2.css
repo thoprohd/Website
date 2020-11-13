@@ -1433,14 +1433,14 @@ padding-right: 40px;
     
 width: 40%;
     
-height: 351px;
+height: 400px;
     
 float: left;
 }
 
 .box_retail_right img {
-    width: 123%;
-    height: 114%;
+
+    height: 100%;
     float: left;
 }
 .wrapper {

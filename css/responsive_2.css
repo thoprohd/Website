@@ -101,7 +101,15 @@
         background-size: 120%;
     }
     
-   
+    .box_retail{
+        width: 480px;
+        
+    }
+    .box_retail_left p{
+        
+        font-size: 14px;
+    }
+    
     
 }
 @media only screen and (max-width: 768px) {

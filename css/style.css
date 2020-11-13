@@ -1211,7 +1211,7 @@ float: left;
     
 width: 33%;
     
-height: 400px;
+height: auto;
     
 float: left;
     
@@ -1232,10 +1232,11 @@ padding-top: 40px;
     
 padding-left: 40px;
     
-padding-bottom: 40px;
+padding-bottom: 65px;
     
 padding-right: 40px;
-    text-align: left;
+    
+text-align: left;
 }
 
 .swiper-slide {
@@ -1246,16 +1247,16 @@ padding-right: 40px;
 }
 .box_retail_right {
     
-width: 40%;
+width: 47%;
     
-height: 351px;
+height: auto;
     
 float: left;
 }
 
 .box_retail_right img {
-    width: 123%;
-    height: 114%;
+    /* width: 123%; */
+    /* height: 470px; */
     float: left;
 }
 .wrapper {
@@ -1287,6 +1288,7 @@ float: left;
       -ms-flex-align: center;
       -webkit-align-items: center;
       align-items: center;
+      margin-right: 35px;
     }
 
     .append-buttons {
