@@ -749,7 +749,7 @@ color: #504883;
     
 width: 90%;
     
-height: 200px;
+height: auto;
     
 float: left;
     
@@ -776,7 +776,7 @@ margin-top: 2%;
 
 .box_textbox_bottom {
     width: 100%;
-    height: 150px;
+    height: auto;
     float: left;
     /* background-color: brown; */
     margin-top: 10px;
