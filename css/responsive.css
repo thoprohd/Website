@@ -75,8 +75,13 @@
     }
     .box_retail{
         width: 480px;
+        margin-left: 10%;
         
     }
+    .box_retail_left {
+        width: 73%; 
+    }
+    
     .box_retail_left p{
         
         font-size: 14px;
